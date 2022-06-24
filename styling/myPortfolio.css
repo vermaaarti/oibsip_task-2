@@ -1,0 +1,106 @@
+.box1{
+	box-shadow: 3px 3px 5px green;
+	/*height: 200px;
+	width: 500px;*/
+	border-radius: 15px;
+}
+.box2, .box3, .box4, .box5{
+box-shadow: 3px 3px 4px gray;
+border: 2px solid grey;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover, .btn7:hover{
+	color: green;
+	font-size: 20px;
+}
+.box6, .box7, .box8{
+box-shadow: 3px 3px 4px gray;
+border: 1px solid grey;
+border-radius: 10px;
+}
+.box9, .box10, .box11, .box12{
+	box-shadow: 2px 2px 3px gray;
+	border: 0px solid gray;
+}
+
+/*src: url("../webfonts/fa-brands-400.eot");
+ // This is how it is been referred now in all.min.css file.*/
+
+
+ .contain{
+			margin: 0 auto;
+		
+		}
+		ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+			background: none;
+			color: #222;
+			display: inline-block;
+			padding: 10px 15px;
+			cursor: pointer;
+		}
+
+		ul.tabs li.current{
+			background: #2d8659;
+			color: #222;
+		}
+
+		.tab-content{
+			display: none;
+			padding: 15px;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+		/*.dnld: hover{
+      
+		}*/
+
+		ul li{
+			list-style: none;
+		}
+		.i-fb{
+			color: blue;
+		}
+		.i-in{
+			color: #2280f2;
+		}
+		.i-insta{
+color: #f71967;
+		}
+.i-twt{
+color: #36def7;
+}
+nav li a {
+  position: relative;
+}
+nav li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #2d8659;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  nav li a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+
+
+
+
+
+
+/*css for portfolio tabber section*/
